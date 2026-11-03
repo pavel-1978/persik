@@ -67,12 +67,33 @@
       align-items: center; 
     }
 
-    header h1 { 
-      margin: 0; 
-      font-size: 1.6rem; 
+    /* Настройки заголовка с эффектом пульсирующего неонового свечения */
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      line-height: 1.2; /* Для крупных заголовков в шапке интервал чуть меньше */
+      text-align: left;
       color: #ffffff;
-      letter-spacing: 1px;
-      text-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+      text-transform: uppercase; /* Делает все буквы заглавными */
+      letter-spacing: 1px;       /* Немного раздвигает буквы для красоты */
+      animation: neon-pulse 2s infinite alternate ease-in-out; /* Запускает пульсацию */
+    }
+
+    /* Эффект плавного пульсирующего свечения (голубой неон под цвет сайта) */
+    @keyframes neon-pulse {
+      from {
+        text-shadow: 
+          0 0 4px rgba(255, 255, 255, 0.9),
+          0 0 10px rgba(52, 152, 219, 0.6),
+          0 0 20px rgba(52, 152, 219, 0.4);
+      }
+      to {
+        text-shadow: 
+          0 0 8px rgba(255, 255, 255, 1),
+          0 0 20px rgba(52, 152, 219, 0.9),
+          0 0 35px rgba(52, 152, 219, 0.7),
+          0 0 50px rgba(52, 152, 219, 0.5);
+      }
     }
 
     /* Навигация (вкладки) */
