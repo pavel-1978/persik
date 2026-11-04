@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Паласантович — Кошачья Галерея</title>
   <style>
+
     :root {
       --primary-color: #2c3e50;
       --accent-color: #3498db;
@@ -286,11 +287,13 @@
     </div>
   </header>
 
-  <!-- Кнопки переключения вкладок -->
+    <!-- Кнопки переключения вкладок -->
   <nav aria-label="Основная навигация">
     <button onclick="openTab('main-tab')" id="btn-main-tab" class="active">Главная</button>
     <button onclick="openTab('gallery-tab')" id="btn-gallery-tab">Галерея</button>
+    <button onclick="openTab('video-tab')" id="btn-video-tab">Видеогалерея</button>
   </nav>
+
 
   <main class="container">
     
@@ -301,159 +304,104 @@
         <div class="main-cat-container">
           <img src="img/1.jpg" alt="Главный кот" style="box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9); border-radius: 8px; max-width: 100%;" class="cat-img">
           <p class="cat-description">Наш ПАСЛАСАНТАВИЧ, отвечающий за уют и стрессоустойчивость.</p>
+
         </div>
       </div>
+<center>
+  <iframe width="100%" height="260" style="max-width: 500px; width: 100%;" src="https://www.youtube.com/embed/FLmAd3VtWu4?si=0-Y8zz6WqnKo9T5O" frameborder="0" allowfullscreen></iframe>
+</center>
     </div>
-    <!-- ВКЛАДКА 2: ФОТОГАЛЕРЕЯ -->
+
+
+
+<!-- ВКЛАДКА 2: ФОТОГАЛЕРЕЯ -->
     <div id="gallery-tab" class="tab-content">
       <div class="section">
         <h2 style="text-align: center;">ФОТОГАЛЕРЕЯ</h2>
         
         <div class="gallery-grid">
           <!-- Карточка 1 -->
-          <div class="gallery-item">
-            <img src="img/2.jpg" alt="Кот 1">
-          </div>
+          <div class="gallery-item"><img src="img/2.jpg" alt="Кот 1"></div>
           <!-- Карточка 2 -->
-          <div class="gallery-item">
-            <img src="img/3.jpg" alt="Кот 2">
-          </div>
+          <div class="gallery-item"><img src="img/3.jpg" alt="Кот 2"></div>
           <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/4.jpg" alt="Кот 3">
-          </div>
+          <div class="gallery-item"><img src="img/4.jpg" alt="Кот 3"></div>
           <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/5.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/6.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/7.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/8.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/9.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/10.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/11.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/12.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/13.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/14.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/15.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/16.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/17.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/18.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/19.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/20.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/21.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/22.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/23.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/24.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/25.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/26.jpg" alt="Кот 4">
-          </div>
-<div class="gallery-item">
-            <img src="img/27.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/28.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/29.jpg" alt="Кот 4">
-          </div>
-         <div class="gallery-item">
-           <img src="img/30.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/31.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/32.jpg" alt="Кот 4">
-          </div><div class="gallery-item">
-            <img src="img/33.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/34.jpg" alt="Кот 3">
-          </div>
-          <!-- Карточка 4 -->
-          <div class="gallery-item">
-            <img src="img/35.jpg" alt="Кот 4">
-          </div>
-          <div class="gallery-item">
-            <img src="img/36.jpg" alt="Кот 2">
-          </div>
-          <!-- Карточка 3 -->
-          <div class="gallery-item">
-            <img src="img/37.jpg" alt="Кот 3">
-          </div>
-        </div>
+          <div class="gallery-item"><img src="img/5.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/6.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/7.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/8.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/9.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/10.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/11.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/12.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/13.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/14.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/15.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/16.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/17.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/18.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/19.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/20.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/21.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/22.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/23.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/24.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/25.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/26.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/27.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/28.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/29.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/30.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/31.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/32.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/33.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/34.jpg" alt="Кот 3"></div>
+          <div class="gallery-item"><img src="img/35.jpg" alt="Кот 4"></div>
+          <div class="gallery-item"><img src="img/36.jpg" alt="Кот 2"></div>
+          <div class="gallery-item"><img src="img/37.jpg" alt="Кот 3"></div>
+        </div> <!-- Конец gallery-grid -->
+      </div> <!-- Конец section -->
+    </div> <!-- Конец gallery-tab -->
 
-      </div>
-    </div>
-<center>
-  <iframe width="100%" height="360" style="max-width: 640px; width: 100%;" src="https://www.youtube.com/embed/FLmAd3VtWu4?si=0-Y8zz6WqnKo9T5O" frameborder="0" allowfullscreen></iframe>
-</center>
-  </main>
+    <!-- ВКЛАДКА 3: ВИДЕОГАЛЕРЕЯ (Теперь она лежит строго внутри контейнера main) -->
+    <div id="video-tab" class="tab-content">
+      <div class="section">
+        <h2 style="text-align: center;">ВИДЕОГАЛЕРЕЯ</h2>
+        <div class="video-grid">
+          
+          <!-- Видео 1 -->
+          <div class="video-item" style="margin-bottom: 40px;">
+            <h3>Digital Mastermind - The Space Theme</h3>
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/iRE9ylm8zLY?si=cAHFp0GAceUJgHfe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!-- Видео 2 -->
+          <div class="video-item" style="margin-bottom: 40px;">
+            <h3>ARGY x ANYMA Melodic Techno Mix 2026 & Hypnotic Progressive House</h3>
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/_pzciB4P-us?si=UTEa7FRqs64fdIZy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+	 <!-- Видео 3 -->
+          <div class="video-item" style="margin-bottom: 40px;">
+            <h3>AARGY x ARTBAT & ANYMA Deep Melodic Techno Mix 2026 & Progressive House</h3>
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/UMUFCfbsMeg?si=9spdGGxgXIWrmPMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div> <!-- Конец video-grid -->
+      </div> <!-- Конец section -->
+    </div> <!-- Конец video-tab -->
+
+  </main> <!-- ТЕПЕРЬ ГЛАВНЫЙ КОНТЕЙНЕР ЗАКРЫВАЕТСЯ ЗДЕСЬ, ПОСЛЕ ВСЕХ ВКЛАДОК! -->
 
   <footer>
-    <p>&copy; 2026 </p>
+    <p>&copy; 2026 Паласантович — Все кошачьи права защищены.</p>
   </footer>
+
 
   <!-- Модальное окно для полноэкранного просмотра -->
   <div id="catModal" class="modal" onclick="closeModal()">
